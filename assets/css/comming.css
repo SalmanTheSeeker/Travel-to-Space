@@ -1,0 +1,36 @@
+.container-comming{
+
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5%;
+    position: relative;
+
+}
+
+.nav-li-u{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.earth-animated{
+
+    width: 10%;
+}
+
+
+.container-comming h3 {
+
+    font-size: 5vw;
+    font-family: 'teko';
+    letter-spacing: 1vw;
+}
+
+
+.container-comming p {
+
+    font-size: 3vw;
+    font-family: 'teko';
+    letter-spacing: .2vw;
+    word-spacing: 1vw;
+}

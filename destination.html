@@ -5,7 +5,7 @@
         
         <h3 class="h3-pic"><b>01</b> pic your destination</h3>
 
-        <img class="destination-img" src="./assets/imgs/mars.png" alt="mars">
+        <img id="destination-img" class="destination-img" src="./assets/imgs/mars.png" alt="mars">
 
         
     </div>
@@ -13,13 +13,13 @@
     <div class="right-container-disti">
 
         <ul class="desti-ul">
-            <li id="moon" class="desti-li"><a class="desti-li-a-active" id="moon-a" onclick="titanClick()" href="#">MOON</a></li>
-            <li id="mars" class="desti-li"><a class="desti-li-a-non" id="mars-a" onclick="titanClick()" href="#">MARS</a></li>
-            <li id="eurpa" class="desti-li"><a class="desti-li-a-non" id="eurpa-a" onclick="titanClick()" href="#">EURPA</a></li>
-            <li id="titan" class="desti-li"><a class="desti-li-a-non" id="titan-a" onclick="titanClick()" href="#">TITAN</a></li>
+            <li class="desti-li"><a class="desti-a" id="moon" onclick="moonClick()" href="#">MOON</a></li>
+            <li class="desti-li"><a class="desti-a desti-li-a-active" id="mars" onclick="marsClick()" href="#">MARS</a></li>
+            <li class="desti-li"><a class="desti-a" id="eurpa" onclick="eurpaClick()" href="#">EURPA</a></li>
+            <li class="desti-li"><a class="desti-a" id="titan" onclick="titanClick()" href="#">TITAN</a></li>
         </ul>
 
-        <h1 class="h1-space-desti">MOON</h1>
+        <h1 id="destination-title" class="h1-space-desti">mars</h1>
 
         <p class="p-lets-disti">Let's face it; if you want to go to space, you might as well 
         <br> genuinely go to outer space and not hover kind of on the 
